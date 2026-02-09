@@ -3,7 +3,7 @@ name: "github-actions"
 displayName: "GitHub Actions CI/CD"
 description: "Build, test, and deploy with GitHub Actions. Author production-ready workflows, reusable actions, matrix strategies, and security-hardened CI/CD pipelines following GitHub's official best practices."
 keywords: ["github actions", "ci", "cd", "cicd", "ci/cd", "pipeline", "workflow", "deploy", "build", "test", "automation", "github", "actions", "yaml", "runner", "matrix", "artifact", "release", "continuous integration", "continuous deployment"]
-author: "Community"
+author: "Nirmal Rajan"
 ---
 
 # GitHub Actions CI/CD Power
@@ -65,12 +65,12 @@ This power includes workflow-specific steering files that load on-demand based o
 
 | When the user is working on... | Load this steering file |
 |-------------------------------|------------------------|
-| Creating or editing CI/CD workflows, YAML syntax, triggers, jobs | `workflow-authoring.md` |
-| Security hardening, secrets, permissions, supply chain | `security-hardening.md` |
-| Performance optimization, caching, matrix strategies, concurrency | `performance-optimization.md` |
-| Deployment workflows, environments, release strategies | `deployment-patterns.md` |
-| Reusable workflows, composite actions, custom actions | `reusable-actions.md` |
-| Debugging failed runs, troubleshooting, error resolution | `troubleshooting.md` |
+| Creating or editing CI/CD workflows, YAML syntax, triggers, jobs | `steering/workflow-authoring.md` |
+| Security hardening, secrets, permissions, supply chain | `steering/security-hardening.md` |
+| Performance optimization, caching, matrix strategies, concurrency | `steering/performance-optimization.md` |
+| Deployment workflows, environments, release strategies | `steering/deployment-patterns.md` |
+| Reusable workflows, composite actions, custom actions | `steering/reusable-actions.md` |
+| Debugging failed runs, troubleshooting, error resolution | `steering/troubleshooting.md` |
 
 ---
 
@@ -210,3 +210,18 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 ```
+
+---
+
+## License and support
+
+This power is released under the MIT license (SPDX: MIT). See [LICENSE](./LICENSE) for full text.
+
+- [Source & Support](https://github.com/nirmal84/GitHub-Actions-CICD-Kiro-Power)
+
+### MCP Server: GitHub MCP Server
+
+This power integrates with the [GitHub MCP Server](https://github.com/github/github-mcp-server) (MIT).
+
+- [Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+- [Support](https://github.com/github/github-mcp-server/issues)

@@ -14,12 +14,12 @@ Build, test, and deploy with GitHub Actions. This power gives your Kiro agent ex
 
 | File | Covers |
 |------|--------|
-| `workflow-authoring.md` | Triggers, jobs, matrix strategies, expressions, services, artifacts |
-| `security-hardening.md` | Permissions, secrets, OIDC, supply chain, script injection prevention |
-| `performance-optimization.md` | Caching, concurrency, parallelization, reducing billable minutes |
-| `deployment-patterns.md` | Environments, staged rollouts, platform-specific deploys, rollback |
-| `reusable-actions.md` | Reusable workflows, composite actions, JavaScript/Docker actions |
-| `troubleshooting.md` | Common errors, debugging techniques, validation, performance debugging |
+| `steering/workflow-authoring.md` | Triggers, jobs, matrix strategies, expressions, services, artifacts |
+| `steering/security-hardening.md` | Permissions, secrets, OIDC, supply chain, script injection prevention |
+| `steering/performance-optimization.md` | Caching, concurrency, parallelization, reducing billable minutes |
+| `steering/deployment-patterns.md` | Environments, staged rollouts, platform-specific deploys, rollback |
+| `steering/reusable-actions.md` | Reusable workflows, composite actions, JavaScript/Docker actions |
+| `steering/troubleshooting.md` | Common errors, debugging techniques, validation, performance debugging |
 
 ## Installation
 
